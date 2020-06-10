@@ -1,9 +1,12 @@
 .stat__list {
+  list-style-type: none;
   max-width: 690px;
+  max-height: 90px;
   font-family: Inter;
   font-style: normal;
-  font-weight: bold;
+  
   font-size: 12px;
   line-height: 18px;
   margin: 0;
+  padding: 0;
 }
