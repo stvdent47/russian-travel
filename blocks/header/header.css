@@ -3,6 +3,7 @@
 @import url(./__lang-link/header__lang-link.css);
 
 .header {
+  max-width: 1280px;
   width: 1184px;
   height: 52px;
   margin: 0 auto;
