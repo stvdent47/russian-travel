@@ -1,0 +1,9 @@
+@import url(./__title/stat__title.css);
+@import url(./__text/stat__text.css);
+@import url(./__list/stat__list.css);
+
+.stat {
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 0 0 92px;
+}
