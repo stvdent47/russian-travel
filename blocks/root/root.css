@@ -2,6 +2,7 @@
   color: #fff;
   background-color: #2A2C2F;
   width: 100%;
+  min-width: 320px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
