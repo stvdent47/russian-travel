@@ -14,3 +14,9 @@
     padding: 0 48px 40px;
   }
 }
+
+@media all and (max-width: 768px) {
+  .stat__title {
+    padding: 0 24px 40px;
+  }
+}
