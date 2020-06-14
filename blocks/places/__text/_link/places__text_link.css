@@ -3,5 +3,8 @@
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
-  
+}
+
+.places__text_link:hover {
+  cursor: pointer;
 }

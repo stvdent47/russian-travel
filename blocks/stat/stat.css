@@ -1,6 +1,7 @@
 @import url(./__title/stat__title.css);
 @import url(./__text/stat__text.css);
 @import url(./__list/stat__list.css);
+@import url(./__list/_bold/stat__list_bold.css);
 
 .stat {
   max-width: 984px;

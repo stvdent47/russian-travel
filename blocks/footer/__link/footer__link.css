@@ -1,5 +1,4 @@
 .footer__link {
-
   color: #fff;
   text-decoration: none;
   font-family: Inter;
@@ -9,4 +8,8 @@
   line-height: 18px;
   margin: 0 18px 0 0;
   padding: 0;
+}
+
+.footer__link:hover {
+  cursor: pointer;
 }
