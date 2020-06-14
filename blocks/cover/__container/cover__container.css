@@ -28,3 +28,9 @@
   opacity: .2;
   transition: opacity 0.1s linear;
 }
+
+@media all and (max-width: 1024px) {
+  .cover__container {
+    height: 640px;
+  }
+}

@@ -8,3 +8,9 @@
   margin: 0;
   padding: 0 0 40px;
 }
+
+@media all and (max-width: 1024px) {
+  .stat__title {
+    padding: 0 48px 40px;
+  }
+}

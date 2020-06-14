@@ -9,3 +9,9 @@
   line-height: 36px;
   text-align: center;
 }
+
+@media all and (max-width: 1024px) {
+  .intro__subtitle {
+    padding: 0 0 56px;
+  }
+}
