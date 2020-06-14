@@ -10,3 +10,9 @@
   margin: 0 auto;
   padding: 0 0 92px;
 }
+
+@media all and (max-width: 768px) {
+  .cover {
+    padding: 0 0 88px;
+  }
+}
