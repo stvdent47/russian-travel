@@ -1,7 +1,13 @@
 .places__text_url {
   color: #aaa;
   font-size: 12px;
-  line-height: 1;
+  line-height: 1.7;
   letter-spacing: 0.2em;
   padding: 0 0 12px;
+}
+
+@media all and (max-width: 768px) {
+  .places__text_url {
+    line-height: 1;
+  }
 }

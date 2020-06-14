@@ -34,3 +34,9 @@
     height: 640px;
   }
 }
+
+@media all and (max-width: 768px) {
+  .cover__container {
+    height: 480px;
+  }
+}

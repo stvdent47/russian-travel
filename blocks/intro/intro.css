@@ -9,3 +9,9 @@
   margin: 0 auto;
   padding: 0 0 92px;
 }
+
+@media all and (max-width: 768px) {
+  .intro {
+    padding: 0 0 88px;
+  }
+}

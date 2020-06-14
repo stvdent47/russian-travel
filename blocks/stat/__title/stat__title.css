@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
-  line-height: 58px;
+  line-height: 1.07;
   margin: 0;
   padding: 0 0 40px;
 }
@@ -12,5 +12,11 @@
 @media all and (max-width: 1024px) {
   .stat__title {
     padding: 0 48px 40px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .stat__title {
+    padding: 0 24px 40px;
   }
 }
