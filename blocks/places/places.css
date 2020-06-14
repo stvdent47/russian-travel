@@ -21,3 +21,10 @@
     padding: 0 48px 92px;
   }
 }
+
+@media all and (max-width: 768px) {
+  .places {
+    width: calc(100% - 48px);
+    padding: 0 24px 88px;
+  }
+}

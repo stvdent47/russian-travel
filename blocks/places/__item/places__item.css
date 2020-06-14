@@ -1,7 +1,6 @@
 .places__item {
   max-width: 984px;
   width: 100%;
-  max-height: 660px;
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
@@ -20,5 +19,13 @@
     grid-template-columns: 440px 456px;
     grid-column-gap: 32px;
     padding: 0 0 84px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .places__item {
+    grid-template-columns: 340px 352px;
+    grid-column-gap: 24px;
+    padding: 0 0 72px;
   }
 }
