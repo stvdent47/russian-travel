@@ -3,6 +3,7 @@
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
+  padding: 0;
 }
 
 .places__text_link:hover {

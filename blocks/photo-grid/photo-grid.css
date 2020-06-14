@@ -6,3 +6,9 @@
   margin: 0 auto;
   padding: 0 0 92px;
 }
+
+@media all and (max-width: 1024px) {
+  .photo-grid {
+    padding: 0 48px 92px;
+  }
+}
