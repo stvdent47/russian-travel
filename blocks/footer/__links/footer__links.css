@@ -6,8 +6,9 @@
   padding: 0;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 600px) {
   .footer__links {
     flex-direction: column;
+    padding: 0 0 48px;
   }
 }
