@@ -14,13 +14,22 @@
 
 @media all and (max-width: 1024px) {
   .footer {
-    width: calc(100% - 96px);
+    max-width: calc(100% - 96px);
   }
 }
 
 @media all and (max-width: 768px) {
   .footer {
-    width: calc(100% - 48px);
+    max-width: calc(100% - 48px);
     padding: 0 24px 24px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .footer {
+    max-width: calc(100% - 32px);
+    height: 310px;
+    padding: 0 16px 24px;
+    flex-direction: column;
   }
 }
