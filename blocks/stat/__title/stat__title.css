@@ -1,5 +1,6 @@
 .stat__title {
   max-width: 690px;
+  width: 100%;
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
@@ -11,6 +12,7 @@
 
 @media all and (max-width: 320px) {
   .stat__title {
+    max-width: 288px;
     font-size: 32px;
     line-height: 1.09;
   }
