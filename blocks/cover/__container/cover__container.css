@@ -40,3 +40,9 @@
     height: 480px;
   }
 }
+
+@media all and (max-width: 320px) {
+  .cover__container {
+    height: 200px;
+  }
+}
