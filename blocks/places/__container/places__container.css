@@ -4,3 +4,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media all and (max-width: 320px) {
+  .places__container {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -5,3 +5,9 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+@media all and (max-width: 320px) {
+  .places__url {
+    display: none;
+  }
+}

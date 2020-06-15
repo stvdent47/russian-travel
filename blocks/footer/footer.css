@@ -1,6 +1,7 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__links/footer__links.css);
 @import url(./__link/footer__link.css);
+@import url(./__link/_mobile/footer__link_mobile.css);
 
 .footer {
   max-width: 1184px;
@@ -12,9 +13,24 @@
   justify-content: space-between;
 }
 
+@media all and (max-width: 1024px) {
+  .footer {
+    max-width: calc(100% - 96px);
+  }
+}
+
 @media all and (max-width: 768px) {
   .footer {
-    width: calc(100% - 48px);
+    max-width: calc(100% - 48px);
     padding: 0 24px 24px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .footer {
+    max-width: calc(100% - 32px);
+    height: 310px;
+    padding: 0 16px 24px;
+    flex-direction: column;
   }
 }

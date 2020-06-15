@@ -13,12 +13,18 @@
 
 @media all and (max-width: 1024px) {
   .intro__caption {
-    padding: 8px 48px 0;
+    padding: 8px 0 0;
   }
 }
 
 @media all and (max-width: 768px) {
   .intro__caption {
     padding: 8px 24px 0;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .intro__caption {
+    padding: 8px 16px 0;
   }
 }
