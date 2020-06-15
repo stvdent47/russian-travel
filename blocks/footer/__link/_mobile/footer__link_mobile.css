@@ -1,0 +1,9 @@
+@media all and (max-width: 320px) {
+  .footer__link_mobile {
+    margin: 0 0 32px;
+  }
+
+  .footer__link_mobile:last-of-type {
+    margin: 0;
+  }
+}

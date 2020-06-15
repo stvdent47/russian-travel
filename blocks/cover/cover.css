@@ -16,3 +16,9 @@
     padding: 0 0 88px;
   }
 }
+
+@media all and (max-width: 320px) {
+  .cover {
+    padding: 0 0 64px;
+  }
+}
