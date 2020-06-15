@@ -10,6 +10,13 @@
   padding: 0 0 92px;
 }
 
+@media all and (max-width: 1024px) {
+  .intro {
+    max-width: calc(100% - 96px);
+    width: 100%;
+  }
+}
+
 @media all and (max-width: 768px) {
   .intro {
     padding: 0 0 88px;
