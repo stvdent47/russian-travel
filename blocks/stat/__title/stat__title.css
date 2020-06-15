@@ -9,14 +9,9 @@
   padding: 0 0 40px;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 320px) {
   .stat__title {
-    padding: 0 48px 40px;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .stat__title {
-    padding: 0 24px 40px;
+    font-size: 32px;
+    line-height: 1.09;
   }
 }
