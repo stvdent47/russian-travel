@@ -8,14 +8,7 @@
 
 @media all and (max-width: 1024px) {
   .intro__img {
-    
-    padding: 0;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .intro__img {
-    width: 100%;
+    max-width: 100%;
     padding: 0;
   }
 }
