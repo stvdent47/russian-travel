@@ -12,7 +12,7 @@
   z-index: 10;
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 640px) {
   .cover__title {
     max-width: calc(100% - 32px);
     font-size: 32px;

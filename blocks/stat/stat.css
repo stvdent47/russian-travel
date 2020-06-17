@@ -25,7 +25,7 @@
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 640px) {
   .stat {
     max-width: calc(100% - 32px);
     padding: 0 16px 64px;
