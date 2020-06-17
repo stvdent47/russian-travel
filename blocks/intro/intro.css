@@ -1,5 +1,6 @@
 @import url(./__title/intro__title.css);
 @import url(./__subtitle/intro__subtitle.css);
+@import url(./__image-caption/intro__image-caption.css);
 @import url(./__img/intro__img.css);
 @import url(./__caption/intro__caption.css);
 
@@ -13,7 +14,6 @@
 @media all and (max-width: 1024px) {
   .intro {
     max-width: calc(100% - 96px);
-    width: 100%;
   }
 }
 

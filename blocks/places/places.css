@@ -4,8 +4,8 @@
 @import url(./__url/places__url.css);
 @import url(./__img/places__img.css);
 @import url(./__text/places__text.css);
-@import url(./__text/_url/places__text_url.css);
-@import url(./__text/_link/places__text_link.css);
+@import url(./__url-text/places__url-text.css);
+@import url(./__url-link/places__url-link.css);
 
 .places {
   max-width: 984px;
