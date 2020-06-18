@@ -28,7 +28,6 @@
 @media all and (max-width: 640px) {
   .footer {
     max-width: calc(100% - 32px);
-    max-height: 310px;
     height: 100%;
     padding: 48px 16px 24px;
     flex-direction: column;
